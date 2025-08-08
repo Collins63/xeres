@@ -1,10 +1,10 @@
 import React from 'react'
 import { FiAnchor, FiArrowRightCircle } from 'react-icons/fi'
-import { blackIphone } from '../assets'
+import { blackIphone, robots } from '../assets'
 
 const Hero = () => {
   return (
-    <div className='px-5 '>
+    <div className='px-5 mt-25'>
         <div className='flex flex-col justify-between md:flex-row'>
             <div className='flex flex-col'>
                 <h1 className='text-black text-7xl font-medium'>Building tomorrow</h1>
@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
         <div
             style={{
-                backgroundImage: `url(${blackIphone})`,
+                backgroundImage: `url(${robots})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 height:'70vh'
